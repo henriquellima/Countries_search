@@ -1,0 +1,53 @@
+body,
+.App {
+  font-family: roboto, sans-serif;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+
+  background-color: rgba(0, 0, 0, 0.075);
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.card__name {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card__img {
+  width: 200px;
+  height: 100px;
+}
+
+.input {
+  margin-bottom: 30px;
+
+  border: 3px solid rgba(0, 0, 0, 0.5);
+
+  border-radius: 10px;
+
+  width: 200px;
+  height: 20px;
+
+  padding: 5px;
+}
